@@ -1,3 +1,5 @@
+mod utils;
+
 use tokio_postgres::types::ToSql;
 use tokio_postgres::{NoTls};
 use taos::*;
